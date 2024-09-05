@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.bg-sidebar {
+  background-color: #21263c;
+}
+.site-sidebar, .site-header {
+  position: sticky;
+  top: 0;
+}
+
+.site-homebar{
+  background-image: url("https://www.zoho.com/inventory/inventory-software-demo/assets/images/svgs/home-header-bg-zom-f063611a9d.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.active{
+  padding: 8px;
+  margin: auto;
+  border: 0;
+  border-radius: 8px;
+  width: 183px;
+  transition: background-color .3s ease;
+  background-color: #408dfb;
+}
